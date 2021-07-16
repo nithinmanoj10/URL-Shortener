@@ -6,7 +6,7 @@ export default class GetStarted extends Component {
     return (
       <div className="get-started">
         <h2 className="get-started__heading">Boost your links today</h2>
-        <RoundButton />
+        <RoundButton text="Get Started" />
       </div>
     );
   }

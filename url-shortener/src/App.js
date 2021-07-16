@@ -8,6 +8,7 @@ import "../src/css/style.css";
 import FeaturesBox from "./components/Features Box/FeaturesBox";
 import GetStarted from "./components/GetStarted";
 import Footer from "./components/Footer/Footer";
+import MobileMenu from "./components/MobileMenu";
 
 export default class App extends Component {
   render() {

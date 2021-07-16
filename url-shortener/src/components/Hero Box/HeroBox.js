@@ -9,7 +9,7 @@ export default class HeroBox extends Component {
       <div className="hero-box">
         <HeroImage />
         <HeroText />
-        <RoundButton />
+        <RoundButton text="Get Started" />
       </div>
     );
   }
