@@ -1,0 +1,30 @@
+.link-shortener-form {
+  background-color: var(--col-primary-dark-violet);
+  display: grid;
+  width: 90%;
+  margin: 70px auto;
+  padding: 20px;
+  border-radius: 5px;
+
+  &__input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__submit {
+    color: #fff;
+    background-color: var(--col-primary-cyan);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
+}

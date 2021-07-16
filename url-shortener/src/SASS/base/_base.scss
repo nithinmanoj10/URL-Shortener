@@ -9,3 +9,9 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+::placeholder {
+  color: var(--col-neutral-dark-blue);
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
