@@ -6,6 +6,8 @@ import HeroBox from "./components/Hero Box/HeroBox";
 import LinkBox from "./components/LinkBox";
 import "../src/css/style.css";
 import FeaturesBox from "./components/Features Box/FeaturesBox";
+import GetStarted from "./components/GetStarted";
+import Footer from "./components/Footer/Footer";
 
 export default class App extends Component {
   render() {
@@ -15,6 +17,8 @@ export default class App extends Component {
         <HeroBox />
         <LinkBox />
         <FeaturesBox />
+        <GetStarted />
+        <Footer />
       </div>
     );
   }

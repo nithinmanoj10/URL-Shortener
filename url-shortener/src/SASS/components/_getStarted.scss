@@ -1,0 +1,17 @@
+.get-started {
+  background-image: url("/src/images/bg-boost-mobile.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--col-primary-dark-violet);
+  height: 35vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__heading {
+    color: #fff;
+  }
+}

@@ -5,7 +5,6 @@ import Icon1 from "../../images/icon-brand-recognition.svg";
 export default class Features extends Component {
   constructor(props) {
     super(props);
-    console.log(props);
     this.state = {
       name: props.data.name,
       details: props.data.details,
