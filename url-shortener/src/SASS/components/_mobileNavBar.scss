@@ -1,0 +1,21 @@
+.mobile-header {
+  .mobile-nav-bar {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    justify-content: space-between;
+    align-items: center;
+
+    .website-name {
+      color: var(--col-neutral-dark-violet);
+    }
+
+    .hamburger-menu {
+      display: block;
+
+      &__icon {
+        color: var(--col-secondary-red);
+      }
+    }
+  }
+}
